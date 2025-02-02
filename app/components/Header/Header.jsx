@@ -9,7 +9,7 @@ export const Header = () => {
                 <a href="/" className={"font-[montserrat] duration-300 text-[#777] hover:text-white"}>Поддержка</a>
                 <a href="/" className={"font-[montserrat] duration-300 text-[#777] hover:text-white"}>Блог</a>
             </nav>
-            <div className={"flex font-[montserrat]"}>
+            <div className={"flex font-[montserrat] text-sm"}>
                 <input type="text" placeholder={"Что-нибудь"} className={"bg-[#333] pl-2 pr-2 duration-300 rounded-l-lg focus:bg-[#fff] focus:text-black focus:outline-0 placeholder:text-[#999]"}/>
                 <button className={"bg-[#333] pr-2 pl-2 text-white  rounded-r-lg focus:outline-['0'] duration-300 hover:bg-white hover:text-black"}>Поиск</button>
             </div>
